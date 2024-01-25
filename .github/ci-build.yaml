@@ -6,3 +6,11 @@ on:
   pull_request:
     branches:
       - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: python:3.9-slim
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
