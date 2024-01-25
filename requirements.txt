@@ -30,3 +30,6 @@ httpie==3.2.1
 
 Flask-Talisman==0.8.0
 pip install -r requirements.txt
+
+Flask-Cors==3.0.10
+pip install -r requirements.txt
